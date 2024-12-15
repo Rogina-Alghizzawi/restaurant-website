@@ -1,0 +1,369 @@
+header {
+    background-color: #96031a;
+    padding: 10px 0;
+}
+
+header .nav-link {
+    color: #fbfffe;
+    font-weight: bold;
+}
+
+header .nav-link:hover {
+    color: #faa916;
+}
+
+header .logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .nav img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(145deg, #fff, #f7f7f7);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #f39c12;
+}
+
+.rating i {
+    margin-right: 5px;
+}
+
+.btn-buy {
+    background-color: #faa916;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-buy:hover {
+    background-color: #f79c42;
+}
+
+.top-dishes-section {
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+.left-right-section {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.left-right-section .image-container {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.left-right-section .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.left-right-section .text-container {
+    flex: 1;
+    padding-left: 30px;
+}
+
+.left-right-section .text-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.left-right-section .text-container p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.left-right-section .text-container .btn-learn-more {
+    background-color: #faa916;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.left-right-section .text-container .btn-learn-more:hover {
+    background-color: #f79c42;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card i {
+    font-size: 3rem;
+    color: #faa916;
+    margin-bottom: 15px;
+}
+
+.service-card h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #555;
+    font-size: 1rem;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+#contactForm {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+#contactForm:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.input-text {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+.input-text:focus {
+    border-color: #faa916;
+    box-shadow: 0 0 5px rgba(250, 169, 22, 0.5);
+    outline: none;
+}
+
+textarea.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+    resize: vertical;
+}
+
+textarea.form-control:focus {
+    border-color: #faa916;
+    box-shadow: 0 0 5px rgba(250, 169, 22, 0.5);
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #faa916;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #f79c42;
+}
+
+.contactus {
+    text-align: center;
+}
+
+.success-message {
+    color: #28a745;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    #contactForm {
+        padding: 20px;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+    }
+}
+
+.container.mt-5 {
+    font-family: "Arial", sans-serif;
+    color: #333;
+}
+
+h3.text-center.mb-4 {
+    font-family: "Dancing Script", cursive;
+    color: #96031a;
+}
+
+h4 {
+    font-family: "Arial", sans-serif;
+    font-size: 1.5rem;
+    color: #96031a;
+}
+
+.p {
+    font-family: "Arial", sans-serif;
+    font-size: 1rem;
+    color: #555;
+}
+
+ul {
+    font-family: "Arial", sans-serif;
+    color: #555;
+}
+
+li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+li strong {
+    color: #faa916;
+}
+
+footer {
+    background-color: #96031a;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-logo h2 {
+    font-size: 1.5em;
+    margin: 0;
+    font-family: "Dancing Script", cursive;
+}
+
+.footer-contact h3,
+.footer-social h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.footer-contact i,
+.footer-social i {
+    margin-right: 8px;
+    color: #fff;
+}
+
+.footer-social a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #ffcc00;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
